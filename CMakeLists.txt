@@ -10,5 +10,10 @@ include_directories(googletest/include googletest)
 add_executable(Code_Introduction2Algorithms main.cpp)
 
 # chapter04
+add_executable(maximum_subarray ./chapter04/MaximumSubarray/maximum_subarray.cpp)
 add_executable(maximum_subarray_test ./chapter04/MaximumSubarray/maximum_subarray_test.cpp)
 target_link_libraries(maximum_subarray_test gtest gtest_main)
+
+#chapter15
+add_executable(cut_rod ./chapter15/CutRod/cut_rod.cpp)
+add_executable(fibonacci_seq ./chapter15/FibonacciSeq/fibonacci_seq.cpp)
