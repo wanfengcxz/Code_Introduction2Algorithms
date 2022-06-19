@@ -26,6 +26,28 @@ TEST_F(MaximumSubarrayTest, brute_force){
     ASSERT_EQ(ans[2], 43);
 }
 
+TEST_F(MaximumSubarrayTest, brute_force_negative){
+    vector<int> ans = maximumSubarray_bruteforce(arr_negative);
+    ASSERT_EQ(ans[0], 3);
+    ASSERT_EQ(ans[1],3);
+    ASSERT_EQ(ans[2], -1);
+}
+
+TEST_F(MaximumSubarrayTest, divide){
+    vector<int> ans = maximumSubarray_divide(arr1, 0, arr1.size()-1);
+    ASSERT_EQ(ans[0], 7);
+    ASSERT_EQ(ans[1],10);
+    ASSERT_EQ(ans[2], 43);
+}
+
+TEST_F(MaximumSubarrayTest, divide_negative){
+    vector<int> ans = maximumSubarray_divide(arr_negative, 0, arr_negative.size()-1);
+    ASSERT_EQ(ans[0], 3);
+    ASSERT_EQ(ans[1],3);
+    ASSERT_EQ(ans[2], -1);
+}
+
+
 
 
 int main(){
