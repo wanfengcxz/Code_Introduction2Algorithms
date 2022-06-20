@@ -16,4 +16,5 @@ target_link_libraries(maximum_subarray_test gtest gtest_main)
 
 #chapter15
 add_executable(cut_rod ./chapter15/CutRod/cut_rod.cpp)
-add_executable(fibonacci_seq ./chapter15/FibonacciSeq/fibonacci_seq.cpp)
+add_executable(fibonacci_seq chapter15/LeetCode/fibonacci_seq.cpp)
+add_executable(climb_stairs chapter15/LeetCode/climb_stairs.cpp)
