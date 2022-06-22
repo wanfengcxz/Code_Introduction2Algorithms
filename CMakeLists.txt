@@ -20,3 +20,6 @@ add_executable(fibonacci_seq chapter15/LeetCode/fibonacci_seq.cpp)
 add_executable(climb_stairs chapter15/LeetCode/climb_stairs.cpp)
 add_executable(min_cost_climbing_stairs chapter15/LeetCode/min_cost_climbing_stairs.cpp)
 add_executable(rob chapter15/LeetCode/rob.cpp)
+add_executable(rob2 chapter15/LeetCode/rob2.cpp)
+add_executable(delete_and_earn chapter15/LeetCode/delete_and_earn.cpp)
+
