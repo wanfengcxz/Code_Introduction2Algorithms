@@ -7,6 +7,7 @@
 
 using namespace std;
 
+// 198
 // 自底向上 递推
 // eg. 20 7 9 3 1
 int rob_bottom_up(vector<int> &nums) {
@@ -26,5 +27,26 @@ int rob_bottom_up(vector<int> &nums) {
         arr[i] = theft > no_theft ? theft : no_theft;
     }
     return arr[size - 1];
+}
+
+// space: O(1)
+int rob(vector<int> &nums) {
+    if (nums.size() == 1)
+        return nums[0];
+    if (nums.size() == 2)
+        return nums[0] > nums[1] ? nums[0] : nums[1];
+
+    int size = nums.size();
+    int max[2];
+
+    max[0] = nums[0];
+    max[1] = nums[0] > nums[1] ? nums[0] : nums[1];
+
+    for (int i = 2; i < size; i++) {
+        int theft = max[i % 2] + nums[i];
+        int no_theft = max[(i - 1) % 2];
+        max[i % 2] = theft > no_theft ? theft : no_theft;
+    }
+    return max[(size - 1) % 2];
 }
 
