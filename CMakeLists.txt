@@ -22,4 +22,4 @@ add_executable(min_cost_climbing_stairs chapter15/LeetCode/min_cost_climbing_sta
 add_executable(rob chapter15/LeetCode/rob.cpp)
 add_executable(rob2 chapter15/LeetCode/rob2.cpp)
 add_executable(delete_and_earn chapter15/LeetCode/delete_and_earn.cpp)
-
+add_executable(matrix_chain_order chapter15/MatrixChainOrder/matrix_chain_order)
