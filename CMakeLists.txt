@@ -25,4 +25,6 @@ add_executable(delete_and_earn chapter15/LeetCode/delete_and_earn.cpp)
 add_executable(matrix_chain_order chapter15/MatrixChainOrder/matrix_chain_order)
 add_executable(jump1 chapter15/LeetCode/jump1.cpp)
 add_executable(jump2 chapter15/LeetCode/jump2.cpp)
+add_executable(max_product chapter15/LeetCode/max_product.cpp)
+add_executable(longest_common_subsequence chapter15/LCS/longest_common_subsequence.cpp)
 
