@@ -29,4 +29,5 @@ add_executable(max_product chapter15/LeetCode/max_product.cpp)
 add_executable(longest_common_subsequence chapter15/LCS/longest_common_subsequence.cpp)
 add_executable(longest_increasing_subsequence chapter15/LeetCode/longest_increasing_subsequence.cpp)
 add_executable(word_break chapter15/LeetCode/word_break.cpp)
+add_executable(longest_palindrome chapter15/LeetCode/longest_palindrome.cpp)
 
