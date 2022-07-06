@@ -27,4 +27,6 @@ add_executable(jump1 chapter15/LeetCode/jump1.cpp)
 add_executable(jump2 chapter15/LeetCode/jump2.cpp)
 add_executable(max_product chapter15/LeetCode/max_product.cpp)
 add_executable(longest_common_subsequence chapter15/LCS/longest_common_subsequence.cpp)
+add_executable(longest_increasing_subsequence chapter15/LeetCode/longest_increasing_subsequence.cpp)
+add_executable(word_break chapter15/LeetCode/word_break.cpp)
 
